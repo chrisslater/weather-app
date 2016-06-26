@@ -11,6 +11,7 @@ export default {
   devtool: 'source-map',
   entry: {
     main: [
+      'babel-polyfill',
       './src/client.js',
     ],
   },
