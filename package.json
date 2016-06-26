@@ -11,10 +11,10 @@
     "lint": "eslint src",
     "start": "node",
     "test": "mocha",
-    "dev": "node start-dev.js"
+    "dev": "NODE_ENV=development node start-dev.js"
   },
   "author": "Chris Slater <chris@snapper.fish> (http://www.snapper.fish)",
-  "license": "ISC",
+  "license": "MIT",
   "peerDependencies": {
     "eslint-plugin-jsx-a11y": "^1.2.0"
   },
